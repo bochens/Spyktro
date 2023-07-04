@@ -17,7 +17,7 @@ Simple GUI Software for viewing and analyzing Raman spectra based on Pyside6
    Function to find Raman peaks basec on scipy.signal.find_peaks
 
 3. baseline_modpoly(self, degree = 2, repitition=100, gradient=0.001)
-   Automated Method for Subtraction of Fluorescence from Biological Raman Spectra, by Lieber & Mahadevan-Jansen (2003)/
+   Automated Method for Subtraction of Fluorescence from Biological Raman Spectra, by Lieber & Mahadevan-Jansen (2003)\
    code is adapted from https://github.com/StatguyUser/BaselineRemoval/blob/master/src/BaselineRemoval.py
     
 
