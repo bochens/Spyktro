@@ -19,5 +19,13 @@ Simple GUI Software for viewing and analyzing Raman spectra based on Pyside6
 3. baseline_modpoly(self, degree = 2, repitition=100, gradient=0.001)
    Automated Method for Subtraction of Fluorescence from Biological Raman Spectra, by Lieber & Mahadevan-Jansen (2003)\
    code is adapted from https://github.com/StatguyUser/BaselineRemoval/blob/master/src/BaselineRemoval.py
+
+4. baseline_als(self, lam = 100, p = 0.01, niter=10)
+   Baseline Correction with Asymmetric Least Squares Smoothing, by P. Eilers and H. Boelens in 2005\
+   baseline_als method is adapted from https://stackoverflow.com/questions/29156532/python-baseline-correction-library
+
+5. peak_fitting(self, func, start, end, parameters = None, bounds = None, figure_size = (12, 8), peak_function = None)
+   Peak_fitting function for fitting 1 or more multiple Gaussian, Lorentzian, or Gaussian-Lorentzian summation function.
+   Also plot the figure at the same time to check the fitting result.
     
 
